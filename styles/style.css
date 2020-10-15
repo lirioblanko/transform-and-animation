@@ -230,7 +230,7 @@ html, body {
     background-image: url(../images/baumgartner.png);
 }
 
-.demo__item_starmant {
+.demo__item_starman {
     background-image: url(../images/starman.png);
     transition: box-shadow .3s ease;
 }
