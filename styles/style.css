@@ -29,7 +29,7 @@ html, body {
 
 
 .demo__item_translate .demo__icon{
-    transform: translate;
+    /*transform: translate;*/
     transition: transform .4s ease-out;
 }
 
@@ -38,7 +38,7 @@ html, body {
 }
 
 .demo__item_rotate .demo__icon{
-    transform: rotate;
+    /*transform: rotate;*/
     transition: transform 1.5s ease-out;
 }
 
@@ -47,7 +47,7 @@ html, body {
 }
 
 .demo__item_scale .demo__icon{
-    transform: scale;
+    /*transform: scale;*/
     transition: transform .4s ease-in;
 }
 
@@ -56,7 +56,7 @@ html, body {
 }
 
 .demo__item_skew .demo__icon{
-    transform: skew;
+    /*transform: skew;*/
     transition: transform .4s ease-in-out;
 }
 
@@ -218,20 +218,20 @@ html, body {
 }
 
 .demo__wrapper_kusto {
-    background-image: url(https://pictures.s3.yandex.net/animation_topic/kusto.png);
+    background-image: url(../images/kusto.png);
     transition: transform .9s ease-in-out;
 }
 
 .demo__item_rossie {
-    background-image: url(https://pictures.s3.yandex.net/animation_topic/rossie.png);
+    background-image: url(../images/rossie.png);
 }
 
 .demo__item_baumgartner {
-    background-image: url(https://pictures.s3.yandex.net/animation_topic/baumgartner.png);
+    background-image: url(../images/baumgartner.png);
 }
 
-.demo__item_starman {
-    background-image: url(https://pictures.s3.yandex.net/animation_topic/starman.png);
+.demo__item_starmant {
+    background-image: url(../images/starman.png);
     transition: box-shadow .3s ease;
 }
 
@@ -254,7 +254,7 @@ html, body {
     right: 15px;
     font-size: 72px;
 }
+
 .demo__item:hover .demo__item-subtitle_baumgartner::after {
     animation: countdown 2s linear 1 forwards;
-}
 }
